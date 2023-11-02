@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Capsule App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="motion">
+        \nDistance and Displacement  \n\n
+The magnitude of the length covered by a moving object is called distance. It has no direction.
+Displacement is the shortest distance between two points or the distance between the starting and final positions with respect to time. It has magnitude as well as direction.
+
+Displacement can be zero, but distance cannot.\n
+
+\n
+
+Magnitude\n\n
+Magnitude is the size or extent of a physical quantity. In physics, we have scalar and vector quantities.
+
+Scalar quantities are only expressed as magnitude. E.g.: time, distance, mass, temperature, area, volume
+
+Vector quantities are expressed in magnitude as well as the direction of the object. E.g.: Velocity, displacement, weight, momentum, force, acceleration, etc./n
+
+\nTime, Average Speed and Velocity\n
+\nTime and speed\n\n
+Time is the duration of an event that is expressed in seconds. Most physical phenomena occur with respect to time. It is a scalar quantity.\n
+
+Speed is the rate of change in distance. If a body covers a certain distance in a certain amount of time, its speed is given by
+
+
+
+The instantaneous speed is the speed of an object at a particular moment in time.\n
+
+Average speed is stated as the distance covered by the object within a period of time.\n
+
+Average speed = Total distance travelled / Total time taken\n
+
+\n
+\n
+\nAverage Speed and Instantaneous Speed\n\n
+\nIt is defined as the total distance travelled divided by the total time elapsed.	It is defined as the speed at a particular instant of time.
+It is constant.	It is not constant.
+Measured by calculating the speed for an entire journey.\n	It is measured by a speedometer.
+\nExample: A car travelling with a speed of 60 kmph. Thus, the average speed of the car is 60 km an hour.	Example: A car travelling at a certain speed at an instant of time can be given by a speedometer.
+Uniform motion and Non-uniform motion
+When an object covers equal distances in equal intervals of time, it is in uniform motion.
+\n\n
+\nExamples of Uniform Motion
+\nMovement of the ceiling fan’s blades.
+\nMotion of Earth around the sun
+\nPendulum with equivalent amplitude on either side
+\nWhen an object covers unequal distances in equal intervals of time, it is said to be in non-uniform motion.
+\nBouncing ball
+\nRunning horse
+\nMoving train
+\n
+\nVelocity\n
+The Rate of change of displacement is velocity. It is a vector quantity. Here the direction of motion is specified.
+
+
+
+\nInstantaneous velocity is the rate of change of position for a time interval which is very small, i.e. almost zero. In more simple words, the velocity of an object at a given instant of time is known as instantaneous velocity.
+
+Average velocity is defined as the displacement (∆x) divided by the time intervals (∆t) in which the displacement occurs.
+
+
+\n\n\n
+Average Velocity\n	Instantaneous Velocity
+Average velocity is defined as the displacement (∆x) divided by the time intervals (∆t) in which the displacement occurs.	Instantaneous velocity is the rate of change of position for a time interval which is very small, i.e. almost zero.
+Average velocity is calculated by dividing the rate of displacement by the time elapsed.	Instantaneous velocity is calculated by dividing displacement by time at that instant.
+\nIf Jack took a total of 1 hour to travel 10 km from his house to school, then his average velocity will be 10 km/hr.	In Jack’s case, on his way to school, while he is sitting and waiting for the train to pass, his instantaneous velocity will be zero. Though the instantaneous velocity was zero for a small part of the journey, the average velocity will not be zero.
+
+\nAcceleration\n
+\nThe rate of change of velocity is called acceleration. It is a vector quantity. In non-uniform motion, velocity varies with time, i.e., the change in velocity is not 0. It is denoted by “a”
+
+\nAcceleration = Change in Velocity / Time
+\n\n\n
+Uniform Circular Motio\nn\n
+\nUniform Circular Motion
+\nIf an object moves in a circular path with uniform speed, its motion is called uniform circular motion.
+\nVelocity changes as direction keeps changing.
+\nAcceleration is constant.
+\nThe uniform circular velocity is given by the following formula:
+
+\n\n
+\nUniform Circular Motion
+
+\nUniform Circular Motion Examples
+\nThe motion of artificial satellites around the Earth is an example of uniform circular motion.
+\nThe motion of electrons around its nucleus.
+\nThe motion of blades of the windmills.
+\nThe tip of the second hand of a watch with a circular dial shows uniform circular motion.</string>
+</resources>

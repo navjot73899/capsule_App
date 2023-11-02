@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.QuizFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/quiz" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="370dp"
+            android:layout_height="370dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittextbackground"
+            android:backgroundTint="#685FB3D9"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/result"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.478"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView">
+
+            <TextView
+                android:id="@+id/que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittextbackground"
+                android:padding="8dp"
+                android:text="1.If the displacement of an object is proportional to square of time, then the object moves with:"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/option1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="option 1" />
+
+            <Button
+                android:id="@+id/option2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="option 1" />
+
+            <Button
+                android:id="@+id/option3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="option 1" />
+
+            <Button
+                android:id="@+id/option4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="option 1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:id="@+id/result"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittextbackground"
+            android:text="Complete Quiz for RESULT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
